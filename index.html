@@ -15,11 +15,12 @@
         <h6>Select the size</h6>
         <button id="popup" class="btn btn-primary">Select</button>
     </div>
+    <p id="message"></p>
     <div class="inner-content"></div>
     <div class="footer">
-        <button class="btn btn-secondary">Black</button>
-        <button class="btn btn-success">Random</button>
-        <button class="btn btn-danger">Reset</button>
+        <button class="btn btn-secondary" onclick="setColour('black')">Black</button>
+        <button class="btn btn-success" onclick="setColour('random')">Random</button>
+        <button class="btn btn-danger" onclick="gridReset()">Reset</button>
     </div>
     
 </body>
